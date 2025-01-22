@@ -1,5 +1,4 @@
 import React from "react";
-import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import StepsCards from "./StepsCards";
 
 const stepsCardsdata = [
@@ -58,7 +57,8 @@ const stepsCardsdata = [
 
 export default function Steps() {
   return (
-    <div className="grid h-screen w-[65%] lg:grid-cols-2 lg:gap-5">
+   <div className="bg-black">
+     <div className="grid h-screen max-w-[80%] mx-auto lg:grid-cols-2 lg:gap-5">
       <div className="flex flex-col items-center gap-2">
         <div className="flex items-center justify-center gap-2 self-start">
           <img src="subtitle-icon.png" alt="" className="h-5 w-5" />
@@ -94,5 +94,6 @@ export default function Steps() {
         </div>
       </div>
     </div>
+   </div>
   );
 }

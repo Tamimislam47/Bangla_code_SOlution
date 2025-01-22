@@ -1,4 +1,4 @@
-import React from "react";
+
 import { InputDemo } from "./InputDemo";
 import { TextareaDemo } from "./TextareaDemo";
 
@@ -26,7 +26,7 @@ export default function Contact() {
           <TextareaDemo />
 
           {/* button */}
-          <a href="#" class="button" className=" w-[180px] h-[50px] ">
+          <a href="#"  className="button w-[180px] h-[50px] ">
             <span></span>
             <span></span>
             <span></span>

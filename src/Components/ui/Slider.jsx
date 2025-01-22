@@ -33,7 +33,7 @@ const Slider = () => {
   return (
     <>
       {/* Testimonial carousel */}
-      <div className="glide-09 relative max-w-[650rem] bg-black mx-auto overflow-hidden">
+      <div className="glide-09 relative max-w-[118rem]  mx-auto overflow-hidden">
         {/* Slides */}
         <div data-glide-el="track">
           <ul className="whitespace-nowrap flex overflow-hidden p-0">
