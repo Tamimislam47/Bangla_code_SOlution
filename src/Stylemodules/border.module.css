@@ -1,0 +1,28 @@
+.container:hover {
+  position: relative;
+  padding: 2px; /* Space for the border effect */
+  background: linear-gradient(-45deg, #0dff0d, #00ffff, #0099ff);
+  animation: mymove 3s linear infinite;
+  border-radius: 8px;
+  background-clip: border-box; /* Ensures the gradient is clipped to the border */
+  -webkit-background-clip: border-box; /* For WebKit-based browsers like Safari */
+}
+
+.container-content {
+  position: relative;
+  z-index: 2;
+  background: black; /* Inner content background color */
+  border-radius: 6px; /* Smaller radius to show the gradient */
+}
+
+@keyframes mymove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
