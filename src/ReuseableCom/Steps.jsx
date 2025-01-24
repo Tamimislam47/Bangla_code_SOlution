@@ -77,7 +77,6 @@ export default function Steps() {
         {/* section steps leftSide Col 01 */}
         <div className="">
           {/* //Cards */}
-
           {stepsCardsdata[0].leftSide.map((card) => (
             <React.Fragment key={card.id}>
               <StepsCards data={card} />
